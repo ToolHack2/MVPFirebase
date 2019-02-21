@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "avatar": null,
+    "name": "Nguyễn Anh Tuấn",
+    "professional": "chủ nhiệm",
+    "email": "example1@email.com",
+    "male": true,
+    "birth": "1/2/1999",
+    "phone": "123456789"
+  },
+  {
+    "id": 2,
+    "avatar": null,
+    "name": "Lê Hữu Duy",
+    "professional": "Toán",
+    "email": "example2@email.com",
+    "male": true,
+    "birth": "3/4/1999",
+    "phone": "223456789"
+  },
+  {
+    "id": 3,
+    "avatar": null,
+    "name": "Lê Thị Thanh Bình",
+    "professional": "Ngữ Văn",
+    "email": "example3@email.com",
+    "male": false,
+    "birth": "5/6/1999",
+    "phone": "323456789"
+  },
+  {
+    "id": 4,
+    "avatar": null,
+    "name": "Đỗ Quân Hạnh",
+    "professional": "GDCD - Vật Lý",
+    "email": "example4@email.com",
+    "male": true,
+    "birth": "7/8/1999",
+    "phone": "423456789"
+  },
+  {
+    "id": 5,
+    "avatar": null,
+    "name": "Nguyễn Trí Hiền",
+    "professional": "Ngoại Giao & Tư Tưởng",
+    "email": "example5@email.com",
+    "male": true,
+    "birth": "9/10/1999",
+    "phone": "523456789"
+  }
+]
