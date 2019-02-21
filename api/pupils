@@ -1,0 +1,102 @@
+[
+  {
+    "id": 10000001,
+    "avatar": null,
+    "name": "Lê Nguyễn Huỳnh Như",
+    "male": true,
+    "group": "12",
+    "cls": "12A1",
+    "birth": "1/2/1999",
+    "phone": "123456789",
+    "relatives": [
+      {
+        "name": "Bố",
+        "phone": "1213243242342"
+      },
+      {
+        "name": "Mẹ",
+        "phone": "7856756756756"
+      }
+    ]
+  },
+  {
+    "id": 10000002,
+    "avatar": "https://raw.githubusercontent.com/ToolHack2/MVPFirebase/master/image/pupil1.png",
+    "name": "Lê Hoài",
+    "male": true,
+    "group": "12",
+    "cls": "12A1",
+    "birth": "1/2/1999",
+    "phone": "123456789",
+    "relatives": [
+      {
+        "name": "Bố",
+        "phone": "1213243242342"
+      },
+      {
+        "name": "Mẹ",
+        "phone": "7856756756756"
+      }
+    ]
+  },
+  {
+    "id": 10000003,
+    "avatar": null,
+    "name": "Lê Thụy My",
+    "male": true,
+    "group": "12",
+    "cls": "12A1",
+    "birth": "1/2/1999",
+    "phone": "123456789",
+    "relatives": [
+      {
+        "name": "Bố",
+        "phone": "1213243242342"
+      },
+      {
+        "name": "Mẹ",
+        "phone": "7856756756756"
+      }
+    ]
+  },
+  {
+    "id": 10000004,
+    "avatar": "https://raw.githubusercontent.com/ToolHack2/MVPFirebase/master/image/pupil2.png",
+    "name": "Nammi",
+    "male": true,
+    "group": "12",
+    "cls": "12A1",
+    "birth": "1/2/1999",
+    "phone": "123456789",
+    "relatives": [
+      {
+        "name": "Bố",
+        "phone": "1213243242342"
+      },
+      {
+        "name": "Mẹ",
+        "phone": "7856756756756"
+      }
+    ]
+  },
+  {
+    "id": 10000005,
+    "avatar": null,
+    "name": "Lê Quốc Đạt",
+    "male": true,
+    "group": "12",
+    "cls": "12A1",
+    "birth": "1/2/1999",
+    "phone": "123456789",
+    "relatives": [
+      {
+        "name": "Bố",
+        "phone": "1213243242342"
+      },
+      {
+        "name": "Mẹ",
+        "phone": "7856756756756"
+      }
+    ]
+  }
+]
