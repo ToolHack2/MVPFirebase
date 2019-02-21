@@ -11,12 +11,13 @@ import android.widget.Toast;
 import com.example.demo.MainActivity;
 import com.example.demo.R;
 import com.example.demo.ui.base.BaseActivity;
+import com.example.demo.ui.login.LoginActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class RegisterActivity extends BaseActivity
+public class RegisterActivity extends BaseActivity<RegisterView, RegisterPresenterInt>
         implements RegisterView {
 
     @BindView(R.id.edt_email)
@@ -26,7 +27,11 @@ public class RegisterActivity extends BaseActivity
     @BindView(R.id.btn_register)
     Button btnRegister;
 
-    RegisterPresenterInt mPresenter;
+
+    @Override
+    protected RegisterPresenterInt getPresenter() {
+        return new RegisterPresenter();
+    }
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -51,20 +56,9 @@ public class RegisterActivity extends BaseActivity
 
     @Override
     public void navigateLogin() {
-        Intent intent = new Intent(RegisterActivity.this, MainActivity.class);
+        Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
         startActivity(intent);
         finish();
     }
 
-
-
-    @Override
-    public void toast(String string) {
-        Toast.makeText(this, string, Toast.LENGTH_SHORT).show();
-    }
-
-    @Override
-    public void toast(int res) {
-        Toast.makeText(this, res, Toast.LENGTH_SHORT).show();
-    }
 }

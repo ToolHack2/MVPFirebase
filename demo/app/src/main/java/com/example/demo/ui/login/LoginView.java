@@ -2,11 +2,10 @@ package com.example.demo.ui.login;
 
 import android.support.annotation.StringRes;
 
-public interface LoginView {
+import com.example.demo.ui.base.MvpView;
+
+public interface LoginView extends MvpView {
 
     void navigateMain();
 
-    void toast(String string);
-
-    void toast(@StringRes int res);
 }

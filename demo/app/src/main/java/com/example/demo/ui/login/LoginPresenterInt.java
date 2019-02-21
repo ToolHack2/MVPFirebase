@@ -1,13 +1,9 @@
 package com.example.demo.ui.login;
 
 
-public interface LoginPresenterInt {
+import com.example.demo.ui.base.MvpPresenter;
 
-    void onAttach(LoginView view);
-
-    void onDetach();
-
-    boolean isViewDetached();
+public interface LoginPresenterInt extends MvpPresenter<LoginView> {
 
     void login(String email, String password);
 }

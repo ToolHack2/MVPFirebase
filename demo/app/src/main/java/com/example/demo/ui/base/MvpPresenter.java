@@ -1,8 +1,8 @@
 package com.example.demo.ui.base;
 
-public interface MvpPresenter<V extends MvpView> {
+public interface MvpPresenter<VIEW extends MvpView> {
 
-    void onAttach(V mvpView);
+    void onAttach(VIEW mvpView);
 
     void onDetach();
 

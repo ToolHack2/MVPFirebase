@@ -1,14 +1,12 @@
 package com.example.demo.ui.register;
 
 
-public interface RegisterPresenterInt {
+import com.example.demo.ui.base.MvpPresenter;
+import com.example.demo.ui.base.MvpView;
 
-    void onAttach(RegisterView view);
+public interface RegisterPresenterInt extends MvpPresenter<RegisterView> {
 
-    void onDetach();
-
-    boolean isViewDetached();
-
+//    boolean isViewDetached();
     void register(String email, String password);
 
 }
