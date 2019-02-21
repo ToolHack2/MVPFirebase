@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "avatar": null,
+    "avatar": "https://raw.githubusercontent.com/ToolHack2/MVPFirebase/master/image/teacher1.png",
     "name": "Nguyễn Anh Tuấn",
     "professional": "chủ nhiệm",
     "email": "example1@email.com",
@@ -31,7 +31,7 @@
   },
   {
     "id": 4,
-    "avatar": null,
+    "avatar": "https://raw.githubusercontent.com/ToolHack2/MVPFirebase/master/image/teacher2.png",
     "name": "Đỗ Quân Hạnh",
     "professional": "GDCD - Vật Lý",
     "email": "example4@email.com",

@@ -21,7 +21,7 @@
   },
   {
     "id": 10000002,
-    "avatar": null,
+    "avatar": "https://raw.githubusercontent.com/ToolHack2/MVPFirebase/master/image/pupil1.png",
     "name": "Lê Hoài",
     "male": true,
     "group": "12",
@@ -61,7 +61,7 @@
   },
   {
     "id": 10000004,
-    "avatar": null,
+    "avatar": "https://raw.githubusercontent.com/ToolHack2/MVPFirebase/master/image/pupil2.png",
     "name": "Nammi",
     "male": true,
     "group": "12",
